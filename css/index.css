@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(227, 233, 230);
+    height: 100vh;
+}
+.colonnegauche {
+    position:absolute;
+    width: 300px;
+    background-color: rgb(97, 88, 88);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pibleu {
+    width: 125px;
+    height: 175px;
+    background-color: blue;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(238, 4, 4), -1em 0 .4em rgb(53, 241, 6);
+}
+.pirouge {
+    width: 125px;
+    height: 175px;
+    background-color: red;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(53, 241, 6), -1em 0 .4em rgb(28, 25, 221);
+}
+.pivert {
+    width: 125px;
+    height: 175px;
+    background-color: green;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(28, 25, 221), -1em 0 .4em rgb(238, 4, 4);
+}
+.menu {
+    display: flex;
+    left: 20%;
+    position:absolute;
+    bottom:0;
+}
