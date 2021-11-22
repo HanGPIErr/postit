@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
-    <script src="./js/postit.class.js"></script>
+    <script src="./js/postit.class.js" defer></script>
     <script src="./js/index.js" defer></script>
     <script src="https://kit.fontawesome.com/4d9b6b5a81.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="colonnegauche">
-        <div class="pibleu"></div>
-        <div class="pirouge"></div>
-        <div class="pivert"></div>
+        <div class="dragme pibleu" draggable="true" data-item="0"></div>
+        <div class="dragme pirouge" draggable="true" data-item="1"></div>
+        <div class="dragme pivert" draggable="true" data-item="2"></div>
+        <!-- <aside draggable="true" class="dragme" data-item="0">One</aside>
+        <aside draggable="true" class="dragme second" data-item="1">Two</aside> -->
+
     </section>
 </body>
 </html>

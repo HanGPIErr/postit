@@ -34,6 +34,7 @@ class Postit {
     affichage(){
         let elem=document.getElementById("Postit"+this.id);
         if(elem==null){
+        dm[i].addEventListener('dragstart', drag_start, false);
         elem=document.createElement("div");
         document.body.appendChild(elem);
         }
